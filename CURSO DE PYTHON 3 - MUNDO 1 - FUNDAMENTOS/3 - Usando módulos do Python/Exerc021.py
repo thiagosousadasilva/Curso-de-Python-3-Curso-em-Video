@@ -2,7 +2,7 @@
 import pygame
 print("=========== desafio 021 ============")
 pygame.mixer.init()
-pygame.init()
+#pygame.init()
 pygame.mixer.music.load('Exerc021.mp3')
 pygame.mixer.music.play()
 pygame.event.wait()
