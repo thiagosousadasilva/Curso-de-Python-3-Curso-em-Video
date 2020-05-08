@@ -6,3 +6,9 @@ primeiro = Ana
 último = Souza
 '''
 print("=========== desafio 027 ============")
+nome = input('Digite o nome da pessoa: ')
+lsnome = nome.split()
+print("""
+Primeiro nome: {}
+Último nome: {}
+""".format(lsnome[0].capitalize(), lsnome[len(lsnome)-1].capitalize()))
