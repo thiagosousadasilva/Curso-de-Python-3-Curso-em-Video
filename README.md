@@ -1,3 +1,3 @@
 # Curso em Video
- Curso de Python 3
- Curso de JavaScript
+1. Curso de Python 3
+2. Curso de JavaScript
