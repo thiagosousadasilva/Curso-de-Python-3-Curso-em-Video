@@ -11,7 +11,7 @@ for x in range (1, 11):
     if x == 1:
         print('01 -', termo)
     else:
-        termo *= r
+        termo += r
         if x < 10:
             print('0'+str(x)+' -', termo)
         else:

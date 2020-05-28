@@ -4,4 +4,4 @@ No início, pergunte ao usuário qual será o valor a ser sacado (número inteir
 programa vai informar quantas cédulas de cada valor serão entregues.
 OBS: considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1.
 '''
-print("=========== desafio 071============")
+print("== Exercício Python #071 - Simulador de Caixa Eletrônico ==")
