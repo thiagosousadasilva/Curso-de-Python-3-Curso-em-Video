@@ -16,5 +16,6 @@ print(f'{"Lista de preços:":^36}')
 print('-'*40)
 for num_item in range(0, len(lstprecos)):
     if num_item % 2 == 0:
-        print(f'\033[34m{num_item:0>2} - {lstprecos[num_item]:.<20} R$ {lstprecos[num_item + 1]:>7.2f}\033[m')
+        print(f'\033[34m{lstprecos[num_item]:.<20} R$ {lstprecos[num_item + 1]:>7.2f}\033[m')
 print('-'*40)
+input('')
