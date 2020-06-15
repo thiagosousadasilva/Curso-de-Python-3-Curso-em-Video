@@ -11,7 +11,6 @@ def leia_int(texto):
         num = input(texto)
         if num.isnumeric():
             return int(num)
-            break
         else:
             print('\033[1;31mDigite um número inteiro válido.\033[m')
 
